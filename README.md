@@ -55,7 +55,7 @@
 2. Добавить источник данных PostgreSQL. Настройки подключения к базе данных прописаны в файле application.properties. 
 Пожалуйста, используйте их при настройке базы PostgreSQL.
 3. Запустить приложение. Для проверки работы сервиса, рекомендуется начинать с тестов конечных точек (Endpoints). Все тесты доступны в классе *****EndpointsAvailabilityTest*****.
-3.При возникновении ошибки *****invalid source release***** установите в настройках проекта SDK java version "18.0.2"
+4. При возникновении ошибки *****invalid source release***** установите в настройках проекта SDK java version "18.0.2"
 ```
    spring.datasource.url=jdbc:postgresql://77.239.243.9:5432/mediasoft?currentSchema=post
    spring.datasource.username=postgres
